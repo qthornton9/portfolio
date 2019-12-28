@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- {% load static %} -->
+</head>
+
+<body> <!--whole browser page-->
+
+    <h1>Qiana R. Thornton</h1>
+    <h3>Full-Stack Web Development</h3>
+    <ul>
+        <li><img src="img/email1.png" alt="Email Address">qrthornton@yahoo.com</li>
+        <li><a href="https://www.linkedin.com/in/qrthornton/"><img src="img/link1.png" alt="Linkedin Link">qrthornton</a></li>
+        <li><a href="https://github.com/qthornton9"><img src="img/git.png" alt="Git Hub Link">qthornton9</a></li>
+    </ul>
+    <div>
+        <img src="img/circleFrame.png" alt="My Picture">
+        <p>I am Qiana R. Thornton, a full-stack web developer and a Coding Dojo graduate knowledgeable in HTML, CSS, JavaScript and Python with Django. I am an energetic, focused, inexhaustible natural problem solver who thrives on challenges and welcomes them as opportunities for positive development.</p>
+    </div>
+    <!-- javaScript from w3schools.com -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Resume')" id="defaultOpen">Resume</button>
+        <button class="tablinks" onclick="openCity(event, 'projectOne')">Project One</button>
+        <button class="tablinks" onclick="openCity(event, 'projectTwo')">Project Two</button>
+    </div>
+    <div id="Resume" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <h2>Resume</h2>
+        <p>put resume here</p>
+    </div>
+    <div id="projectOne" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <h2>Project One</h2>
+        <p>Description: blah blah blah</p>
+        <p>Technologies: blah blah blah</p>
+    </div>
+    <div id="projectTwo" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <h2>Project Two</h2>
+        <p>Description: blah blah blah</p>
+        <p>Technologies: blah blah blah</p>
+    </div>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
